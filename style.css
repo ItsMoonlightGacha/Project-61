@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    background: linear-gradient (#E1BEE7 0%, #90CAF9 100%);
+    background-repeat: no-repeat;
+    background-image: linear-gradient(yellow, orange);
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    border-style: solid;
+    border-color: goldenrod;
+    border: 1px border-radius: 80px;
+    padding: 5px;
+}
+
+p {
+    font-size: 18px;
+    color: yellow;
+}
+
+h1 {
+    text-shadow: 2px 2px goldenrod;
+    font-size: 20px;
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    text-shadow: 2px 2px goldenrod;
+}
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+.Links:hover{
+    background-color: dodgerblue;
+}
+.Links {
+    float: left;
+    color: white;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+img {
+    Transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#Contact {
+    background: firebrick;
+}
+#Contact iframe {
+    width: 100%;
+}
+.Contact_1 h3 {
+    display: inline;
+}
+#Contact a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
